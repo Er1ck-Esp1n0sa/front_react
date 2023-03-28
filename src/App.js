@@ -9,6 +9,9 @@ function App() {
         <p>
           Erick Juarez Espinosa
         </p>
+        <p>
+          De cierta manera la vida de un critico no es facil . . .
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
