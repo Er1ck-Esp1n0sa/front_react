@@ -1,13 +1,13 @@
 #manifest
 apiVersion: apps/v1
-kind: Deployment
+kind: Produccion
 metadata:
   name: {model_name}-deployment
 spec:
   selector:
     matchLabels:
       app: {model_name}-server
-  replicas: 1
+  replicas: 3
   template:
     metadata:
       labels:
