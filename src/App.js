@@ -17,6 +17,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1 className="title">Rick & Morty</h1>
+        <h1 className="description">Esta aplicacion sirve para vizualisar los personajes de la serie animada Rick & Morty, su estado y especie</h1>
         {characters ? (
           <Characters characters={characters} setCharacters={setCharacters} />
         ) : (
@@ -27,6 +28,13 @@ function App() {
           </button>
           </>
         )}
+        <ul>
+      <p>Hecho por: Erick Juarez ESpinosa</p>
+      <p>Contacto</p>
+        <p>zs20006728@estudiantes.uv.mx</p>
+        <p>erikc_48@hotmail.com</p>
+        <a href="https://github.com/Er1ck-Esp1n0sa" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </ul>
       </header>
     </div>
   );
