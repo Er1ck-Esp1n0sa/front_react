@@ -37,6 +37,10 @@ export default function Characters(props){
                         <span className="text-grey">Especie: </span>
                             <span>{character.species} </span>
                         </p>
+                        <p>
+                        <span className="text-grey">Genero: </span>
+                            <span>{character.gender} </span>
+                        </p>
                     </div>
                 </div>
             ))}

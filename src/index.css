@@ -6,8 +6,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.description {
+  color: #302d36;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
 .title {
-  color: #738f93;
+  color: #6138dc;
   font-size: 40px;
   font-family: fantasy, sans-serif;
   margin-bottom: 0;
@@ -19,9 +25,9 @@ body {
 }
 
 .btn-search {
-  background-color: #1ba94c;
-  color: #ffffff;
-  box-shadow: 0 4px 12px rgb(27 169 76 / 50%);
+  background-color: #00ff59;
+  color: #ff0000;
+  box-shadow: 0 4px 12px rgba(158, 27, 149, 0.5);
   font-size: 18.005px;
   padding-left: 1.528em;
   padding-right: 1.528em;
@@ -33,8 +39,8 @@ body {
 }
 
 .btn-search:hover {
-  background-color: #ffffff;
-  border: 1px solid #1ba94c;
+  background-color: #ff0000;
+  border: 1px solid #ff1900;
   color: #1ba94c;
 }
 
@@ -55,7 +61,7 @@ body {
 
 .character-container {
   display: flex;
-  background: #3c3e44;
+  background: #1f3b91;
   margin: 20px 10px;
   border-radius: 10px;
   align-items: flex-start;
